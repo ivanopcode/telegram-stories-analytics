@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telegram-stories-analytics"
+version = "0.1.0"
+description = "Export Telegram Stories viewers and build analytics reports."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Ivan Oparin", email = "oparin@me.com" }
+]
+dependencies = [
+  "telethon>=1.42,<2",
+  "keyring>=25,<26"
+]
+keywords = ["telegram", "stories", "analytics", "telethon", "cli"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: MacOS",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Communications :: Chat",
+]
+
+[project.scripts]
+tg-stories = "tg_stories.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ivanopcode/telegram-stories-analytics"
+Issues = "https://github.com/ivanopcode/telegram-stories-analytics/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

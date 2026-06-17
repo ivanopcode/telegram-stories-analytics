@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "profile": "test",
+  "stories": [
+    {
+      "id": 1,
+      "date": "2026-01-01T10:00:00+00:00",
+      "date_local": "2026-01-01T14:00:00+04:00",
+      "link": "https://t.me/story/1",
+      "viewers": [
+        {
+          "user": { "id": 100, "name": "Alice", "username": "alice", "is_contact": true, "is_mutual_contact": true, "is_premium": false, "is_bot": false, "is_verified": false },
+          "view_date": "2026-01-01T10:05:00+00:00",
+          "reaction": "❤"
+        },
+        {
+          "user": { "id": 200, "name": "Bob", "username": "bob", "is_contact": false, "is_mutual_contact": false, "is_premium": true, "is_bot": false, "is_verified": false },
+          "view_date": "2026-01-01T12:00:00+00:00",
+          "reaction": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2026-01-02T10:00:00+00:00",
+      "date_local": "2026-01-02T14:00:00+04:00",
+      "link": "https://t.me/story/2",
+      "viewers": [
+        {
+          "user": { "id": 100, "name": "Alice", "username": "alice", "is_contact": true, "is_mutual_contact": true, "is_premium": false, "is_bot": false, "is_verified": false },
+          "view_date": "2026-01-02T10:20:00+00:00",
+          "reaction": "❤"
+        },
+        {
+          "user": { "id": 200, "name": "Bob", "username": "bob", "is_contact": false, "is_mutual_contact": false, "is_premium": true, "is_bot": false, "is_verified": false },
+          "view_date": "2026-01-03T10:00:00+00:00",
+          "reaction": "🔥"
+        },
+        {
+          "user": { "id": 300, "name": "Cara", "username": "cara", "is_contact": false, "is_mutual_contact": false, "is_premium": false, "is_bot": false, "is_verified": false },
+          "view_date": "2026-01-02T11:00:00+00:00",
+          "reaction": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2026-01-03T10:00:00+00:00",
+      "date_local": "2026-01-03T14:00:00+04:00",
+      "link": "https://t.me/story/3",
+      "viewers": [
+        {
+          "user": { "id": 100, "name": "Alice", "username": "alice", "is_contact": true, "is_mutual_contact": true, "is_premium": false, "is_bot": false, "is_verified": false },
+          "view_date": "2026-01-03T10:30:00+00:00",
+          "reaction": null
+        }
+      ]
+    }
+  ]
+}
